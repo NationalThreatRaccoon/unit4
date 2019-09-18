@@ -1,3 +1,17 @@
-@import "base/_index.scss",
-        "utilities/_index.scss",
+@import "utilities/_index.scss",
+        "base/_index.scss",
         "component/_index.scss";
+
+        * {
+          font-family: 'Lato', sans-serif;
+          color: #777;
+          box-sizing: border-box;
+        }
+
+        p {
+          line-height: 1.45em;
+        }
+
+        a {
+          text-decoration: none;
+        }

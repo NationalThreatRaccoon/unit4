@@ -1,0 +1,29 @@
+.btn {
+  margin-top: 15px;
+  width: $w;
+  color: $color-secondary;
+  border: none;
+  padding: 10px $padzero;
+  text-transform: uppercase;
+  border-radius: $standard-br;
+}
+
+.default {
+  background-color: $default-color;
+}
+
+.error {
+  background-color: $because-i-need-five;
+}
+
+.info {
+  background-color: #927bc1;
+}
+
+.success {
+  background-color: #63cc82;
+}
+
+.warning {
+  background-color: #fd7856;
+}
