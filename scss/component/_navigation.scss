@@ -1,0 +1,22 @@
+.nav {
+  padding-left: $padzero;
+  flex-basis: $flexb;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  text-align: center;
+  border-radius: $standard-br;
+  padding: 10px $padzero;
+  display: block;
+  width: $w;
+  transition:
+    background-color .2s ease-in-out,
+    color .2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: $color-secondary;
+  background-color: $color-primary;
+}
