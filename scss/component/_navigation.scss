@@ -3,6 +3,12 @@
   flex-basis: $flexb;
   display: flex;
   flex-direction: column;
+
+        @media (min-width: 768px) {
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+      }
 }
 
 .nav-link {
@@ -14,6 +20,10 @@
   transition:
     background-color .2s ease-in-out,
     color .2s ease-in-out;
+
+      @media (min-width: 768px) {
+        flex-basis: $flexb;
+    }
 }
 
 .nav-link:hover {

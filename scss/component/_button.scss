@@ -6,6 +6,10 @@
   padding: 10px $padzero;
   text-transform: uppercase;
   border-radius: $standard-br;
+
+  @media (min-width: 768px) {
+      padding: 10px 30px;
+    }
 }
 
 .default {
@@ -26,4 +30,10 @@
 
 .warning {
   background-color: #fd7856;
+}
+
+  @media (min-width: 768px) {
+.btn + .btn {
+  margin-left: 10px;
+}
 }
